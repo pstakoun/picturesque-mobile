@@ -1,6 +1,6 @@
 import React, {useEffect} from "react"
 import {SafeAreaView, ScrollView, Text} from "react-native"
-import style from "./style";
+import style from "./styles";
 
 const Dashboard = () => {
   const [recentFoods, setRecentFoods] = React.useState<string[]>([])
