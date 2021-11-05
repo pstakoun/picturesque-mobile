@@ -10,7 +10,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={{headerShown: false}}>
-        <Tab.Screen name="Dashboard" component={Dashboard} />
+        <Tab.Screen name="Dashboard" component={Dashboard}/>
         <Tab.Screen name="Camera" component={Camera} />
       </Tab.Navigator>
     </NavigationContainer>
