@@ -18,7 +18,7 @@ export class Food {
     }
 }
 
-export class foodService {
+export class FoodService {
     avocado:food = new food("avocado", 670, 8.53, 14.66, 0.66, 6.7, 2);
     broccoli:food = new food("broccoli", 141, 6.64, 0.37, 1.7, 2.6, 2.82);
     almonds:food = new food("almonds", 2575, 6.2, 53.5, 3.4, 10, 24);
