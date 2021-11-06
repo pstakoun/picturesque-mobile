@@ -1,4 +1,4 @@
-export class food {
+export class Food {
     name!: string;
     calories!: number;
     carbs!: number;
